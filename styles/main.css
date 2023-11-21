@@ -21,15 +21,17 @@ a {
 /**** HEADER *****/
 header {
     padding: 2%;
-    /* display: flex; */
-    /*justify-content: end;*/
-    /* align-items: center; */
+    display: flex; 
+    justify-content: end;
+    align-items: center;
 }
 
-nav li {
+ul li {
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 30px;
+    font-size: 1.5rem;
 }
+
 
 .logo-div {
     margin-right: auto;
@@ -41,10 +43,5 @@ nav li {
 
 #cities {
     border: none;
-    font-size: 1rem;
-}
-
-#cities option {
-    border: none;
-    outline: 0px;
+    font-size: inherit;
 }
