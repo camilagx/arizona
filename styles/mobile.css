@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}ß
+}
 
 .logo-div img {
     max-width: 60px;
@@ -12,7 +12,3 @@ header {
     display: flex;
 }
 
-.contact-btn {
-    background-color: white;
-    border: none;
-}
