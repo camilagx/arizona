@@ -20,28 +20,37 @@ a {
 
 /**** HEADER *****/
 header {
-    padding: 2%;
+    min-height: 50vh;
+}
+
+header > div {
+    padding: 1%;
     display: flex; 
     justify-content: end;
     align-items: center;
 }
-
 ul li {
     display: inline-block;
     padding: 0 30px;
     font-size: 1.5rem;
 }
 
-
-.logo-div {
+.logo-cont {
     margin-right: auto;
 }
-
-.logo-div img {
+.logo {
     max-width: 80px;
 }
 
 #cities {
     border: none;
     font-size: inherit;
+}
+
+.hero {
+    height: 30vh;
+    background-image: url("../images/arizona-header.jpg");
+    background-size: cover;
+    max-width: 1750px;
+    height: 70vh;
 }
