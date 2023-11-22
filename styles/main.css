@@ -30,6 +30,8 @@ header > div {
     padding: 0% 3%;
     margin: 0 auto;
 }
+
+/**** NAV *****/
 nav {
     padding: 1%;
 }
@@ -47,10 +49,8 @@ ul li {
     max-width: 200px;
 }
 
-#cities {
-    border: none;
-    font-size: inherit;
-}
+
+
 
 .hero {
     background-image: url("../images/arizona-header.jpg");
