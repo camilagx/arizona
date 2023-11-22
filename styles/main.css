@@ -79,8 +79,8 @@ ul li {
     border: none;
     border-radius: 5px;
     min-width: 900px;
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 /***** MAIN *****/
@@ -89,5 +89,6 @@ main {
 }
 
 section h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
