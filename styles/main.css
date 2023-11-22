@@ -91,12 +91,12 @@ main {
 section h1 {
     font-size: 1.5rem;
     font-weight: 500;
-    padding-top: 2%;
+    padding: 2% 1% 0;
 }
 
 section {
     background-color: white;
-    padding: 3% 2%;
+    padding: 3% 1% 2%;
 }
 
 section p {
