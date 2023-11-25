@@ -8,10 +8,6 @@
     font-family: "Poppins";
 }
 
-ul li {
-    list-style-type: none;
-}
-
 a, button {
     color: black;
     text-decoration: none;
@@ -36,8 +32,9 @@ nav {
     padding: 1%;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
+    list-style-type: none;
     padding: 0 30px;
     font-size: 1.1rem;
 }
