@@ -1,7 +1,7 @@
 section {
     border:5px solid blue;
     padding: 2%;
-    display:flow-root;
+    float: left;
 }
 
 figure {
@@ -44,8 +44,28 @@ p {
     clear: both;
 }
 
+aside {
+    float: right;
+    border: 1px solid black;
+    padding: 1%
+}
 /**** Utilities ****/
 .citation:hover{
     color: blue;
 }
 
+@media all and (min-width: 1260px) {
+    main {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    section {
+        width: 60vw;
+        float: left;
+    }
+
+    aside {
+        width: 18vw;
+        float: right;
+    }
+}
