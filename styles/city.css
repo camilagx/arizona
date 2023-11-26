@@ -1,14 +1,12 @@
 section {
     border:5px solid blue;
     padding: 2%;
+    display:flow-root;
 }
 
 figure {
-    border: 5px solid red;
-    float: left;
     position: relative;
-    height: 30%;
-    width: 65%;
+    width: 55%;
 }
 
 figure figcaption {
@@ -22,13 +20,12 @@ figure figcaption {
 figure img {
     width: 100%;
 }
+
 .overview-cont {
     border: 1px solid black;
     border-radius: 3px;
     width: 30%;
-    float: right;
     padding: 1%;
-    margin-right: 1%;
 }
 
 .overview-cont h2 {
@@ -39,10 +36,11 @@ figure img {
 .overview-cont ul {
     margin-left: 12%;
 }
-/* Contain the floated elements (figure & overview-cont) */
-section::after {
-    content: "";
-    display: block;
+
+p {
+    line-height: 1.5;
+    text-indent: 5%;
+    padding-top: 10px;
     clear: both;
 }
 
@@ -50,3 +48,4 @@ section::after {
 .citation:hover{
     color: blue;
 }
+
