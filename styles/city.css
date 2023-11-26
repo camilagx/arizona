@@ -7,16 +7,29 @@ figure {
     border: 5px solid red;
     float: left;
     height: 30%;
- 
+    width: 60%;
 }
 
+figure img {
+    width: 100%;
+}
 .overview-cont {
     border: 1px solid black;
     border-radius: 3px;
     width: 30%;
     float: right;
+    padding: 1%;
+    margin-right: 2%;
 }
 
+.overview-cont h2 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.overview-cont ul {
+    margin-left: 12%;
+}
 /* Contain the floated elements (figure & overview-cont) */
 section::after {
     content: "";
