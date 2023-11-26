@@ -1,0 +1,17 @@
+section {
+    border:5px solid blue;
+}
+
+figure {
+    border: 5px solid red;
+    float: left;
+    height: 30%;
+ 
+}
+
+/* Contain the floated elements (figure & overview-cont) */
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
