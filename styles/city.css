@@ -60,12 +60,12 @@ aside {
         margin: 0 auto;
     }
     section {
-        width: 60vw;
+        width: 58vw;
         float: left;
     }
 
     aside {
-        width: 18vw;
+        width: 20vw;
         float: right;
     }
 }
