@@ -56,6 +56,12 @@ section p {
     clear: both;
 }
 
+main::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
 aside {
     float: right;
     border: 1px solid black;

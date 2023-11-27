@@ -9,6 +9,7 @@
 }
 
 body {
+    position: relative;
     min-height: 100%;
 }
 
@@ -114,19 +115,12 @@ nav ul li {
     line-height: 2rem;
 }
 
-
-main::after {
-    display: block;
-    clear: both;
-    content: "";
-}
-
 footer {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
+    bottom: -100px;
     height: 100px;
     width: 100%;
     padding: 5%;
