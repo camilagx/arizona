@@ -95,7 +95,7 @@ nav ul li {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     text-shadow: 3px 3px 3px black;
     text-transform: uppercase;
@@ -116,21 +116,22 @@ nav ul li {
 
 
 main::after {
-    content: "";
     display: block;
     clear: both;
+    content: "";
 }
 
 footer {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: -5vh;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 5%;
     background-color: #041f34;
     color: white;
-    height: 5vh;
-    padding: 4%;
 }
 
 footer a {
