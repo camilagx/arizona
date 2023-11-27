@@ -122,19 +122,24 @@ main::after {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     bottom: -5vh;
     background-color: #041f34;
     color: white;
     height: 5vh;
-    text-align: center;
+    padding: 5%;
 }
 
 footer a {
     color: white;
+    text-align: center;
     display:block;
     height: 100%;
 }
+
 /**** Utilities *****/
 .flex {
     display: flex;
