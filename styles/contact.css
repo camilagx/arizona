@@ -2,6 +2,7 @@ main form {
     border: 1px solid black;
     padding: 2%;
 }
+
 label {
     padding-top: 0.8%;
     display: inline-block;
@@ -16,4 +17,12 @@ textarea {
     background-color: aliceblue;
     font-size: 0.9rem;
     padding: 1%;
+}
+
+
+@media all and (min-width: 1080px) {
+    form {
+        max-width: 40vw;
+        margin: 0 auto
+    }
 }
