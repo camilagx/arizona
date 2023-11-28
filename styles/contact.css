@@ -12,7 +12,7 @@ label {
     display: inline-block;
 }
 
-input, 
+form input, 
 textarea {
     display: block;
     width: 100%;
