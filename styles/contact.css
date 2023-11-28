@@ -2,18 +2,18 @@ main form {
     border: 1px solid black;
     padding: 2%;
 }
+label {
+    padding-top: 0.8%;
+    display: inline-block;
+}
 
-input {
+input, 
+textarea {
+    display: block;
+    width: 100%;
     border-radius: 5px;
     border: none;
     background-color: aliceblue;
     font-size: 0.9rem;
     padding: 1%;
-    display: block;
-    width: 100%;
-}
-
-label {
-    padding-top: 0.8%;
-    display: inline-block;
 }
