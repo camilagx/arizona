@@ -8,9 +8,9 @@
     font-family: "Poppins";
 }
 
-body {
-    position: relative;
+html, body {
     min-height: 100%;
+    position: relative;
 }
 
 a, button {
@@ -21,7 +21,7 @@ a, button {
 
 /**** HEADER *****/
 header {
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 header > div {
@@ -115,15 +115,19 @@ nav ul li {
     line-height: 2rem;
 }
 
+main {
+    margin-bottom: 6vh;
+}
+
 footer {
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: -100px;
-    height: 100px;
+    height: 6vh;
+    padding: 2%;
     width: 100%;
-    padding: 5%;
     background-color: #041f34;
     color: white;
 }
