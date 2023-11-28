@@ -13,3 +13,7 @@ input {
     width: 100%;
 }
 
+label {
+    padding-top: 0.8%;
+    display: inline-block;
+}
