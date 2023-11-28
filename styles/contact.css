@@ -1,6 +1,8 @@
 main form {
-    border: 1px solid black;
-    padding: 2%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+    padding: 3%;
+    margin-top: 2%;
+    border-radius: 5px;
 }
 
 label {
@@ -12,11 +14,12 @@ input,
 textarea {
     display: block;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
-    background-color: aliceblue;
+    background-color: rgb(244, 244, 244);
     font-size: 0.9rem;
     padding: 1%;
+    line-height: 1.8rem;
 }
 
 
