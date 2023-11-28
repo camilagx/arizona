@@ -30,6 +30,7 @@ header > div {
     align-items: center;
     padding: 0% 3%;
     margin: 0 auto;
+    height: 5vh;
 }
 
 /**** NAV *****/
@@ -46,9 +47,13 @@ nav ul li {
 
 .logo-cont {
     margin-right: auto;
+    height: 100%;
 }
+
+.logo a,
 .logo {
     max-width: 200px;
+    height: 100%;
 }
 
 
