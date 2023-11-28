@@ -32,6 +32,16 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+.warning-msg {
+    color: red;
+    font-style: italic;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.display {
+    display: block;
+}
 
 @media all and (min-width: 1080px) {
     form {

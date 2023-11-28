@@ -40,15 +40,20 @@
    <form action="#">
     <label for="fname">First Name:</label>
     <input type="text" name="fname" id="fname" placeholder="Enter First Name" required>
+
     <label for="lname">Enter Last Name:</label>
     <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+
     <label for="email"> Email:</label>
     <input type="email" name="email" id="email" placeholder="Enter Email" required>
+
     <label for="email">Confirm Email:</label>
+    <p class="warning-msg">⚠ Email does not match.</p>
     <input type="email" name="email" id="confirm-email" placeholder="Re-type Email" required>
-    <p class="warning-msg"></p>
+
     <label for="message">Reason for Contact</label>
     <textarea id="message" name="message" rows="3" placeholder="Write your message here" required></textarea>
+
     </label>
     <input type="submit" value="Submit">
    </form>
