@@ -1,0 +1,41 @@
+main {
+    margin: 3%;
+}
+main form {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+    padding: 3%;
+    border-radius: 5px;
+}
+
+label {
+    padding-top: 0.8%;
+    display: inline-block;
+}
+
+input, 
+textarea {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    font-size: 0.9rem;
+    padding: 1%;
+    line-height: 1.8rem;
+}
+
+input[type="submit"] {
+    border: 0.1px solid green;
+    border-radius: 20px;
+    color: green;
+    margin: 4% auto;
+    cursor: pointer;
+}
+
+
+@media all and (min-width: 1080px) {
+    form {
+        max-width: 40vw;
+        margin: 0 auto
+    }
+}
