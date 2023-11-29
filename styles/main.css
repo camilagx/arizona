@@ -176,6 +176,20 @@ footer a {
     display: flex;
 }
 
+.citation {
+    font-style: italic;
+    font-size: 0.8rem;
+    padding: 1%;    
+}
+
+.citation-link {
+    text-decoration: underline;
+}
+
+.citation-link:hover {
+    color: blue;
+}
+
 .space-btwn {
     justify-content: space-between;
 }
