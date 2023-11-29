@@ -145,8 +145,7 @@ main {
 }
 
 .population-tbl th {
-    font-weight: 500;
-    text-decoration: underline;
+    font-weight: 700;
 }
 .population-tbl td {
     text-align: center
