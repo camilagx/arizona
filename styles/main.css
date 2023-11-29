@@ -93,7 +93,7 @@ nav ul li {
 .hero {
     background-image: url("../images/arizona-header.jpg");
     flex-direction: column;
-    height: 82%;
+    height: 35vh;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -120,8 +120,7 @@ nav ul li {
 }
 
 main {
-    margin: 2%;
-    margin-bottom: 8vh;
+    margin: 3%;
 }
 
 footer {
@@ -161,6 +160,5 @@ footer a {
     main {
         width: 80vw;
         margin: 3% auto;
-        margin-bottom: 10vh;
     }
 }
