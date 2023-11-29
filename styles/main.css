@@ -30,7 +30,6 @@ header > div {
     align-items: center;
     padding: 0% 3%;
     margin: 0 auto;
-    height: 5vh;
 }
 
 /**** NAV *****/
@@ -94,7 +93,7 @@ nav ul li {
 .hero {
     background-image: url("../images/arizona-header.jpg");
     flex-direction: column;
-    height: 40vh;
+    height: 82%;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -155,8 +154,13 @@ footer a {
 }
 
 @media all and (min-width: 1260px) {
+    header {
+        height: 20vh;
+    }
+
     main {
         width: 80vw;
-        margin: 2% auto 7%;
+        margin: 3% auto;
+        margin-bottom: 10vh;
     }
 }
