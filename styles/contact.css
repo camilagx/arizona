@@ -1,6 +1,7 @@
 main {
-    margin: 3%;
+    margin: 3% auto;
 }
+
 main form {
     box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
     padding: 3%;
@@ -46,6 +47,6 @@ input[type="submit"] {
 @media all and (min-width: 1080px) {
     form {
         max-width: 40vw;
-        margin: 0 auto
+        margin: 0 auto 9%;
     }
 }

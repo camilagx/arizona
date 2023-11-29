@@ -121,7 +121,8 @@ nav ul li {
 }
 
 main {
-    margin-bottom: 6vh;
+    margin: 2%;
+    margin-bottom: 8vh;
 }
 
 footer {
@@ -151,4 +152,11 @@ footer a {
 
 .space-btwn {
     justify-content: space-between;
+}
+
+@media all and (min-width: 1260px) {
+    main {
+        width: 80vw;
+        margin: 2% auto 7%;
+    }
 }

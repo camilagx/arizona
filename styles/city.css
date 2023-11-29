@@ -75,10 +75,6 @@ aside h2 {
 }
 
 @media all and (min-width: 1260px) {
-    main {
-        width: 80vw;
-        margin: 0 auto;
-    }
     section {
         width: 58vw;
         float: left;
