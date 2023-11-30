@@ -71,11 +71,18 @@ main::after {
     padding-left: 4%;
     overflow-wrap: break-word;
     margin-top: 8px;
+    text-decoration: underline;
 }
 
 .reference-cont ol a:hover {
     color: #034a7d;
     font-weight: bold;
+}
+
+.reference-cont p,
+.reference-cont a {
+    text-align: center;
+    margin: 5%;
 }
 
 @media all and (min-width: 1260px) {
