@@ -1,0 +1,10 @@
+section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.indent {
+    display: inline-block;
+    text-indent: 5%;
+    width: 100%;
+}
