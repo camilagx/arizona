@@ -80,12 +80,12 @@ main::after {
 
 @media all and (min-width: 1260px) {
     section {
-        width: 80%;
+        width: 73%;
         float: left;
     }
 
     .reference-cont {
-        width: 18%;
+        width: 25%;
         float: right;
     }
 
