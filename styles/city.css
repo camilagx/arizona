@@ -7,11 +7,6 @@ section {
     float: left;
 }
 
-section h1 {
-    font-size: 2.2rem;
-    font-weight: 500;
-}
-
 figure {
     position: relative;
     width: 65%;
@@ -74,8 +69,8 @@ main::after {
 
 .reference-cont ol {
     padding-left: 4%;
-    margin: 4%;
     overflow-wrap: break-word;
+    margin-top: 8px;
 }
 
 .reference-cont ol a:hover {
@@ -85,16 +80,13 @@ main::after {
 
 @media all and (min-width: 1260px) {
     section {
-        width: 58vw;
+        width: 80%;
         float: left;
     }
 
     .reference-cont {
-        width: 20vw;
+        width: 18%;
         float: right;
     }
 
-    main {
-        width: 80vw;
-    }
 }
