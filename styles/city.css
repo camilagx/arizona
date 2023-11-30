@@ -40,8 +40,8 @@ figure img {
 .overview-cont h2 {
     margin-left: 2%;
     margin-bottom: 2%;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 900;
 }
 
 .overview-cont ul {
@@ -79,6 +79,7 @@ aside ol {
     padding-left: 4%;
     overflow-wrap: break-word;
 }
+
 
 @media all and (min-width: 1260px) {
     section {
