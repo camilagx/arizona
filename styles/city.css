@@ -3,18 +3,18 @@ p {
 }
 
 section {
-    border:5px solid blue;
     padding: 2%;
     float: left;
 }
 
 section h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
 figure {
     position: relative;
-    width: 55%;
+    width: 65%;
 }
 
 figure figcaption {
@@ -30,8 +30,6 @@ figure img {
 }
 
 .overview-cont {
-    border: 1px solid black;
-    border-radius: 3px;
     width: 30%;
     height: 70%;
     padding: 1%;
@@ -40,7 +38,7 @@ figure img {
 .overview-cont h2 {
     margin-left: 2%;
     margin-bottom: 2%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -62,16 +60,27 @@ main::after {
 }
 
 /***** Using float property *****/
-aside {
+.reference-cont {
     float: right;
-    border: 1px solid black;
     padding: 1%;    
+    width: 100%;
 }
 
-aside h2 {
+.reference-cont h2 {
     font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
+}
+
+.reference-cont ol {
+    padding-left: 4%;
+    margin: 4%;
+    overflow-wrap: break-word;
+}
+
+.reference-cont ol a:hover {
+    color: #034a7d;
+    font-weight: bold;
 }
 
 @media all and (min-width: 1260px) {
@@ -80,8 +89,12 @@ aside h2 {
         float: left;
     }
 
-    aside {
+    .reference-cont {
         width: 20vw;
         float: right;
+    }
+
+    main {
+        width: 80vw;
     }
 }
