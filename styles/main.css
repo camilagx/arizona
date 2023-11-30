@@ -187,16 +187,14 @@ footer a {
 }
 
 .citation-link:hover {
-    color: blue;
+    color: #034a7d;
+    font-weight: bold;
 }
 
 .space-btwn {
     justify-content: space-between;
 }
 
-.underline{
-    text-decoration: underline;
-}
 
 @media all and (min-width: 1260px) {
     header {

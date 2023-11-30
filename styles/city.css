@@ -77,9 +77,14 @@ aside h2 {
 
 aside ol {
     padding-left: 4%;
+    margin: 4%;
     overflow-wrap: break-word;
 }
 
+aside ol a:hover {
+    color: #034a7d;
+    font-weight: bold;
+}
 
 @media all and (min-width: 1260px) {
     section {
