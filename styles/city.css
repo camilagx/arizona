@@ -2,6 +2,7 @@ p {
     text-align: justify;
 }
 
+/***** Using float property *****/
 section {
     padding: 2%;
     float: left;
@@ -88,12 +89,10 @@ main::after {
 @media all and (min-width: 1260px) {
     section {
         width: 73%;
-        float: left;
     }
 
     .reference-cont {
         width: 25%;
-        float: right;
     }
 
 }

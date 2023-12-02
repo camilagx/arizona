@@ -1,4 +1,5 @@
-main form {
+main form,
+aside {
     box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
     padding: 3%;
     border-radius: 5px;
@@ -7,6 +8,10 @@ main form {
 label {
     padding-top: 0.8%;
     display: inline-block;
+}
+
+section h1 {
+    text-align: center;
 }
 
 form input, 
@@ -40,9 +45,22 @@ input[type="submit"] {
     display: block;
 }
 
+aside h2 {
+    text-align: center;
+}
+aside ol li {
+    margin-left: 5%;
+}
+
+
 @media all and (min-width: 1080px) {
-    form {
+    form,
+    aside {
         max-width: 40vw;
         margin: 0 auto;
+    }
+
+    aside {
+        margin-top: 5%;
     }
 }
