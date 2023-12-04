@@ -48,10 +48,21 @@ input[type="submit"] {
 aside h2 {
     text-align: center;
 }
-aside ol li {
-    margin-left: 5%;
+
+/**** USING FLOAT *****/
+h2 + img {
+    float: right;
 }
 
+aside ol li {
+    margin-left: 7%;
+}
+
+aside::after {
+    content: "";
+    clear: right;
+    display:block;
+}
 
 @media all and (min-width: 1080px) {
     form,
